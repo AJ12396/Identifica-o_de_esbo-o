@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253, 236, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: palevioletred;
+    background-color: white;
+}
+
+canvas {
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(253, 236, 235);}
+    to{box-shadow: 1px 1px 38px palevioletred; }
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25;
+}
+
+.container_externo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
